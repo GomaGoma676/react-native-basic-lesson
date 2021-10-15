@@ -4,11 +4,11 @@
     sudo npm i -g expo-cli
 ### 1-2.  expo init
 ~~~
-    expo init basics
+expo init basics
 ~~~
 *Expo SDK43が正式リリースされるまでは、下記コマンドでβ版でプロジェクト作成
 ~~~
-    EXPO_BETA=1 expo init basics
+EXPO_BETA=1 expo init basics
 ~~~
 ### 1-3.  Redux Toolkit
     yarn add @reduxjs/toolkit
