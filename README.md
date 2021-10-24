@@ -1,14 +1,16 @@
 ## Project setup : 
-### 1-1. yarn + expo-cli install *インストールしていない場合
-    sudo npm i -g yarn
-    sudo npm i -g expo-cli
+### 1-1. yarn + expo-cli install
+~~~
+sudo npm i -g yarn
+sudo npm i -g expo-cli
+~~~
+~~~
+expo --version
+4.12.10以降でexpo sdk43が自動的にインストールされます。
+~~~
 ### 1-2.  expo init
 ~~~
 expo init basics
-~~~
-*Expo SDK43が正式リリースされるまでは、下記コマンドでβ版でプロジェクト作成
-~~~
-EXPO_BETA=1 expo init basics
 ~~~
 ### 1-3.  Redux Toolkit
     yarn add @reduxjs/toolkit
