@@ -25,7 +25,7 @@ expo init basics
 ~~~  
 ### 1-5.  Tailwind CSS
 ~~~  
-yarn add tailwind-rn
+yarn add tailwind-rn@3.0.1
 ~~~  
     ↓settings.json
     "tailwindCSS.experimental.classRegex": ["tw\\('([^')]*)"],
